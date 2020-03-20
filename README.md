@@ -1,3 +1,3 @@
 # UbuntuLtsPostInstall
 just an autoconfiguration script to exec line by line with :  
-//for LINE in \`curl $2 \`; do  \`$LINE\`; | awk {'print $2'}; done//
+//for LINE in \`curl 'https://raw.githubusercontent.com/jasongonin-source/UbuntuLtsPostInstall/master/postInstall.sh' \`; do  \`$LINE\`; | awk {'print $2'}; done//
